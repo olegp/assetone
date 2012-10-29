@@ -1,0 +1,19 @@
+{
+  "name": "joinjs",
+  "keywords": ["browser", "commonjs", "modules", "packager", "require"],
+  "description": "Packages up CommonJS modules for the browser",
+  "version": "0.0.1",
+  "author": "Oleg Podsechin <oleg@ionsquare.com>",
+  "directories" : {
+    "lib" : "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/olegp/joinjs.git"
+  },
+  "main": "./lib/index.js",
+  "bin": { "joinjs": "./bin/joinjs" },
+  "engines": { "node": ">= 0.5.2" },
+  "preferGlobal": true,
+  "licenses": [ { "type": "MIT" } ]
+}

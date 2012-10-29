@@ -1,0 +1,10 @@
+#!/usr/bin/env common-node
+process.argv.shift();
+process.argv.shift();
+var output = require('../lib/index').joinjs(process.argv.shift());
+var destination = process.argv.shift();
+if(destination) {
+  fs.write(destination, output);
+} else {
+  console.log(output);
+}
