@@ -10,7 +10,7 @@ First install the package via npm:
     
 Then compile with:
 
-   joinjs ./dir/index output.js
+    joinjs ./dir/index output.js
    
 This will package up all the modules in `./dir/`, use the module in the file 
 `index.js` as the entry point and write out the result to `output.js`.
