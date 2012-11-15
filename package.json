@@ -14,6 +14,7 @@
   "main": "./lib/index.js",
   "bin": { "joinjs": "./bin/joinjs" },
   "engines": { "node": ">= 0.5.2" },
+  "dependencies": {  "uglify-js2": ">= 2.1.11" },
   "preferGlobal": true,
   "licenses": [ { "type": "MIT" } ]
 }
