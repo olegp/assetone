@@ -11,7 +11,7 @@ while(arg = process.argv.shift()) {
 }
 var filename = process.argv.shift();
 if(filename) {
-  var output = require('../lib/index').joinjs(filename, flags.o);
+  var output = require('../lib/index').joinjs(filename,  process.argv.shift(), flags.o);
   var destination = process.argv.shift();
   if(destination) {
     fs.write(destination, output);
