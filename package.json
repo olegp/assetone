@@ -2,7 +2,7 @@
   "name": "joinjs",
   "keywords": ["browser", "commonjs", "modules", "packager", "require"],
   "description": "Packages up CommonJS modules for the browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Oleg Podsechin <oleg@ionsquare.com>",
   "directories" : {
     "lib" : "./lib"
