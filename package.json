@@ -1,20 +1,45 @@
 {
-  "name": "joinjs",
-  "keywords": ["browser", "commonjs", "modules", "packager", "require"],
-  "description": "Packages up CommonJS modules for the browser",
-  "version": "0.0.4",
-  "author": "Oleg Podsechin <oleg@ionsquare.com>",
-  "directories" : {
-    "lib" : "./lib"
+  "name":"joinjs",
+  "keywords":["browser", "commonjs", "modules", "packager", "require", "minifier"],
+  "description":"Packages up CommonJS modules for the browser",
+  "version":"0.1.0",
+  "author":{
+    "name":"Oleg Podsechin",
+    "email":"oleg@ionsquare.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/olegp/joinjs.git"
+  "contributors":[
+    {
+      "name":"Alex Lam",
+      "email":"alex.lam@starthq.com"
+    },
+    {
+      "name":"Oleg Podsechin",
+      "email":"oleg@ionsquare.com"
+    }
+  ],
+  "directories":{
+    "lib":"./lib"
   },
-  "main": "./lib/index.js",
-  "bin": { "joinjs": "./bin/joinjs" },
-  "engines": { "node": ">= 0.5.2" },
-  "dependencies": {  "uglify-js": ">= 2.1.11", "clean-css": ">= 0.8.3" },
-  "preferGlobal": true,
-  "licenses": [ { "type": "MIT" } ]
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/olegp/joinjs.git"
+  },
+  "main":"./lib/index.js",
+  "bin":{
+    "joinjs":"./bin/joinjs"
+  },
+  "engines":{
+    "node":">= 0.5.2"
+  },
+  "dependencies":{
+    "uglify-js":">= 2.1.11",
+    "clean-css":">= 0.8.3",
+    "html-minifier":">= 0.5.4"
+  },
+  "preferGlobal":true,
+  "licenses":[
+    {
+      "type":"MIT"
+    }
+  ]
 }
