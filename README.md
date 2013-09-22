@@ -1,6 +1,6 @@
 # AssetOne
 
-AssetOne packages up CommonJS modules for the browser.
+AssetOne packages up resources as CommonJS modules for the browser.
 
 ### Usage
 
