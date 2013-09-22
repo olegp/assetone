@@ -2,7 +2,7 @@
   "name":"assetone",
   "keywords":["browser", "commonjs", "modules", "packager", "require", "minifier"],
   "description":"Packages up CommonJS modules for the browser",
-  "version":"0.2.0",
+  "version":"0.2.1",
   "author":{
     "name":"Oleg Podsechin",
     "email":"oleg@ionsquare.com"
@@ -25,9 +25,6 @@
     "url":"git://github.com/olegp/assetone.git"
   },
   "main":"./lib/index.js",
-  "bin":{
-    "assetone":"./bin/assetone"
-  },
   "engines":{
     "node":">= 0.5.2"
   },
