@@ -1,8 +1,8 @@
 {
-  "name":"joinjs",
+  "name":"assetone",
   "keywords":["browser", "commonjs", "modules", "packager", "require", "minifier"],
   "description":"Packages up CommonJS modules for the browser",
-  "version":"0.1.1",
+  "version":"0.2.0",
   "author":{
     "name":"Oleg Podsechin",
     "email":"oleg@ionsquare.com"
@@ -22,11 +22,11 @@
   },
   "repository":{
     "type":"git",
-    "url":"git://github.com/olegp/joinjs.git"
+    "url":"git://github.com/olegp/assetone.git"
   },
   "main":"./lib/index.js",
   "bin":{
-    "joinjs":"./bin/joinjs"
+    "assetone":"./bin/assetone"
   },
   "engines":{
     "node":">= 0.5.2"
