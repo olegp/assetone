@@ -7,12 +7,12 @@ AssetOne packages up resources as CommonJS modules for the browser.
 First install the package via npm:
 
     npm install -g assetone
-    
+
 Then compile with:
 
     assetone ./dir/index.js output.js
-   
-This will package up all the modules in `./dir/`, use the module in the file 
+
+This will package up all the modules in `./dir/`, use the module in the file
 `index.js` as the entry point and write out the result to `output.js`.
 
 ### Features
@@ -26,7 +26,7 @@ This will package up all the modules in `./dir/`, use the module in the file
 
   * [Alex Lam](http://github.com/alexlamsl)
   * [Oleg Podsechin](http://github.com/olegp)
-  
+
 ### Acknowledgements
 
   * Mariusz Nowak for inspiration, advice and [modules-webmake](https://github.com/medikoo/modules-webmake)
