@@ -22,6 +22,11 @@ This will package up all the modules in `./dir/`, use the module in the file
   * embed in your own Node.js or [RingoJS](http://ringojs.org) app
   * exposes [Stick](https://github.com/hns/stick) middleware for use with RingoJS and [Common Node](https://github.com/olegp/common-node)
 
+### Maintainers
+
+  * [Alex Lam](http://github.com/alexlamsl)
+  * [Oleg Podsechin](http://github.com/olegp)
+  * 
 ### Acknowledgements
 
   * Mariusz Nowak for inspiration, advice and [modules-webmake](https://github.com/medikoo/modules-webmake)
