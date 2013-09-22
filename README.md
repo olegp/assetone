@@ -6,7 +6,7 @@ AssetOne packages up resources as CommonJS modules for the browser.
 
 First install the package via npm:
 
-    npm install -g git+https://github.com/olegp/assetone.git
+    npm install -g assetone
     
 Then compile with:
 
