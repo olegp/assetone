@@ -13,6 +13,8 @@ Install the package via npm:
   * ability to require non `.js` files (e.g. `require('template.html'`)
   * embed in your own Node.js or [RingoJS](http://ringojs.org) app
   * exposes [Stick](https://github.com/hns/stick) middleware for use with RingoJS and [Common Node](https://github.com/olegp/common-node)
+  * CSS optimization via CleanCSS
+  * JS minification via UglifyJS
 
 ### Maintainers
 
