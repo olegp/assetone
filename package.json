@@ -2,7 +2,7 @@
   "name":"assetone",
   "keywords":["browser", "commonjs", "modules", "packager", "require", "minifier"],
   "description":"Packages up CommonJS modules for the browser",
-  "version":"0.2.2",
+  "version":"0.2.3",
   "author":{
     "name":"Oleg Podsechin",
     "email":"oleg@ionsquare.com"
@@ -26,7 +26,7 @@
   },
   "main":"./lib/index.js",
   "engines":{
-    "node":">= 0.5.2"
+    "node":">=0.5.2"
   },
   "dependencies":{
     "uglify-js":">=2.1.11",
